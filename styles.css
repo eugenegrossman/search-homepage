@@ -1,5 +1,7 @@
 body{
-  background-color: white;
+  background: #fff;
+  color: #222;
+  font-family: Arial, sans-serif;
 }
 
 .topright{
@@ -7,4 +9,10 @@ body{
   padding-right: 30px;
   position: relative;
   text-align: right;
+  float: right;
+  align-items: center;
+}
+
+#topleft{
+  font-size: 13px;
 }
