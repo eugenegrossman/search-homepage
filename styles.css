@@ -1,0 +1,10 @@
+body{
+  background-color: white;
+}
+
+.topright{
+  padding-left: 30px;
+  padding-right: 30px;
+  position: relative;
+  text-align: right;
+}
