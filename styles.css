@@ -4,15 +4,26 @@ body{
   font-family: Arial, sans-serif;
 }
 
-.topright{
-  padding-left: 30px;
-  padding-right: 30px;
-  position: relative;
-  text-align: right;
-  float: right;
-  align-items: center;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fff;
 }
 
-#topleft{
-  font-size: 13px;
+li{
+  float: left;
+}
+
+li a{
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 8px 10px;
+  font-size: 12px;
+}
+
+.active {
+  background-color: #4CAF50;
 }
