@@ -28,6 +28,11 @@ ul.nav li{
   background-color: #4CAF50;
 }
 
+.table{
+  display: table;
+  margin: 0 auto;
+}
+
 #button{
   background-color: #4387fd;
   font-weight: bold;
