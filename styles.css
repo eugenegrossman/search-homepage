@@ -20,9 +20,8 @@ li{
 li a{
   display: block;
   color: black;
-  text-align: center;
   padding: 8px 10px;
-  font-size: 12px;
+  font-size: 13px;
 }
 
 .active {
