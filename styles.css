@@ -36,5 +36,7 @@ li a{
 }
 
 #image1{
+  width: 30px;
+  height: 30px;
   top: 15px;
 }
