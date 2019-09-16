@@ -35,6 +35,7 @@ li a{
   color: #fff;
 }
 
-.image1{
+#image1{
   margin-bottom: 15px;
+  display: block;
 }
