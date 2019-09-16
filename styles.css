@@ -3,20 +3,22 @@ body{
   font-family: Arial, sans-serif;
 }
 
-ul {
+.table {
   list-style-type: none;
-  margin: auto;
-  padding-top: 15px;
+  margin: 0;
+  padding: 0;
   overflow: hidden;
   background-color: #fff;
+  text-align: center;
 }
 
-li{
+.table li{
   float: left;
+  display: inline;
 }
 
-li a{
-  display: block;
+.table a{
+  display: inline-block;
   color: black;
   text-align: center;
   padding: 8px 10px;
