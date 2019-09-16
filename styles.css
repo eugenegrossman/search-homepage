@@ -4,7 +4,7 @@ body{
   font-family: Arial, sans-serif;
 }
 
-ul {
+ul.nav {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -17,7 +17,7 @@ li{
   float: left;
 }
 
-li a{
+ul.nav li{
   display: inline-block;
   color: black;
   padding: 8px 10px;
