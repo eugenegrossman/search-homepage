@@ -36,5 +36,6 @@ li a{
 }
 
 #products{
+  display: inline-block;
   top: 15px;
 }
