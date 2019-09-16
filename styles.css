@@ -18,7 +18,7 @@ li{
 }
 
 ul.nav li{
-  display: inline-block;
+  display: inline;
   color: black;
   padding: 8px 10px;
   font-size: 13px;
