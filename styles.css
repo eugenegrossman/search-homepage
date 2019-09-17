@@ -30,7 +30,7 @@ body{
   background-color: #4CAF50;
 }
 
-#button{
+li#button{
   background-color: #4387fd;
   font-weight: bold;
   border: 1px solid #4285f4;
@@ -40,6 +40,5 @@ body{
 #logo {
   height:233px;
   margin:auto;
-  position: relative;
-  position: center ;
+  position: center;
 }
