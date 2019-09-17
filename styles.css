@@ -18,14 +18,12 @@ body{
 
 .table a{
   display: flex;
+  justify-content: center;
+  flex-direction: column;
   color: black;
   text-align: center;
   padding: 8px 10px;
   font-size: 13px;
-}
-
-.table#{
-  padding
 }
 
 .active {
