@@ -21,7 +21,12 @@ body{
   color: black;
   text-align: center;
   padding: 8px 10px;
+  padding-bottom: 15px;
   font-size: 13px;
+}
+
+.table#products{
+
 }
 
 .active {
