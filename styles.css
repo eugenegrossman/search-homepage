@@ -30,7 +30,7 @@ body{
   background-color: #4CAF50;
 }
 
-.table#button{
+#button{
   background-color: #4387fd;
   font-weight: bold;
   border: 1px solid #4285f4;
@@ -39,5 +39,6 @@ body{
 
 #logo {
   height:233px;
-  margin-top:89px;
+  margin:auto;
+  position: relative;
 }
