@@ -30,9 +30,14 @@ body{
   background-color: #4CAF50;
 }
 
-#button{
+.table#button{
   background-color: #4387fd;
   font-weight: bold;
   border: 1px solid #4285f4;
   color: #fff;
+}
+
+#logo {
+  height:233px;
+  margin-top:89px;
 }
