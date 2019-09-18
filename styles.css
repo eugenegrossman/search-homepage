@@ -30,6 +30,10 @@ body{
   background-color: #4CAF50;
 }
 
+.center{
+  text-align: center;
+}
+
 li#button{
   background-color: #4387fd;
   font-weight: bold;
