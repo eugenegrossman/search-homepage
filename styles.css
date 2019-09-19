@@ -35,10 +35,17 @@ body{
   text-align: center;
 }
 
+form{
+  display: flex;
+  border: 1px solid grey;
+  padding: 2px;
+}
+
 form.searchbox input{
+  flex-grow: 2;
   width: 80%;
   background: #fff;
-  border: 1px solid #dfe1e5;
+  border: red;
   box-shadow: none;
   border-radius: 24px;
   height: 44px;
