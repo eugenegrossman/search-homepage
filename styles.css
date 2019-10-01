@@ -38,7 +38,9 @@ body{
 form{
   display: flex;
   border: 1px solid grey;
+  border-radius: 100px;
   padding: 2px;
+  width: 40%;
 }
 
 form.searchbox input{
@@ -58,6 +60,7 @@ form.searchbox button{
   background: #fff;
   color: grey;
   font-size: 14px;
+  border-radius: 100px;
 }
 
 /* .box{
@@ -72,6 +75,14 @@ li#button{
   font-weight: bold;
   border: 1px solid #4285f4;
   color: #fff;
+}
+
+li#botbutton{
+  color: #5F6368;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  font-size: 14px;
+  padding: 0 16px;
 }
 
 #logo {
