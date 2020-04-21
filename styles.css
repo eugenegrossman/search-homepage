@@ -4,6 +4,7 @@ body{
   color: #222;
 }
 
+/* Horizontal bars (Top, Search buttons, and bottom bar) */
 .table {
   list-style-type: none;
   margin: 0;
@@ -11,10 +12,42 @@ body{
   overflow: hidden;
   background-color: #fff;
 }
+
 .table1 {
   list-style-type: none;
   overflow: hidden;
   background-color: #fff;
+  display: inline-block;
+}
+
+/* bottom stuff */
+.bottable{
+  height: 40px;
+  bottom: 0;
+  left: 0;
+  right:0;
+  padding-top:10px;
+  position: absolute;
+  display: block;
+  margin-bottom: 0px;
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #f2f2f2;
+  font-size: 14px;
+  display: inline-block;
+  border-top: 1px solid #e4e4e4;
+}
+
+.bottable a{
+  text-decoration: none;
+  white-space: nowrap;
+  padding-left: 27px;
+  color: #5f6368;
+}
+
+.bottable li{
+  float: left;
+  display: flex;
 }
 
 .table li{
@@ -36,6 +69,7 @@ body{
   background-color: #4CAF50;
 }
 
+/* centered image  */
 .center{
   text-align: center;
 }
@@ -88,11 +122,11 @@ li#botbutton{
   border: 1px solid #f2f2f2;
   font-size: 14px;
   padding: 0 16px;
-  margin-left: 450px;
+  /* margin-left: 450px; */
   float: left;
   margin-right: 8px;
-  display: flex;
-  justify-content: center;
+  /* display: flex; */
+  /* justify-content: center; */
 
 }
 
@@ -102,9 +136,9 @@ li#botbutton2{
   border: 1px solid #f2f2f2;
   font-size: 14px;
   padding: 0 16px;
-  margin-right: 450px;
+  margin-left: 8px;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
 
 }
 
@@ -112,5 +146,5 @@ li#botbutton2{
   height:233px;
   margin:auto;
   position: center;
-  padding-top: 100px;
+  /* padding-top: 0px; */
 }
